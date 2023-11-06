@@ -3,6 +3,14 @@
 The `Check` resource is a self-validation mechanism for cloud applications. Checks can be defined at
 any level and can be used to check if the system is healthy at that level.
 
+## Installation
+
+```sh
+npm i @winglibs/checks
+```
+
+## Usage
+
 For example, a check can query the HTTP API of an app to verify it's operational:
 
 ```js
