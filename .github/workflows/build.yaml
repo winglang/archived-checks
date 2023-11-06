@@ -12,6 +12,8 @@ jobs:
         with:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.org'
+      - name: Setup Wing
+        run: npm i -g winglang@latest
       - name: Install dependencies
         run: npm install
       - name: Test
